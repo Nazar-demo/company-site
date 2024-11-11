@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Контакти{% endblock %}
+{% block content %}
+
+    <div class="content-block">
+        <h2 class="desc">Розробка сайтів на Django</h2>
+        <div class="text-block contacts">
+            <div class="contacts-block">
+                <a href="https://www.instagram.com" class="link contacts"><img class="contacts-icon" src="{% static 'company/img/instagram.png' %}"></a>
+                <a href="https://www.instagram.com" class="link contacts">Наш Instagram</a>
+            </div>
+            <div class="contacts-block">
+                <a href="https://linkedin.com" class="link contacts"><img class="contacts-icon" src="{% static 'company/img/linkedin.png' %}"></a>
+                <a href="https://linkedin.com" class="link contacts">Наш LinkedIn</a>
+            </div>
+            <div class="contacts-block">
+                <a href="https://www.github.com" class="link contacts"><img class="contacts-icon" src="{% static 'company/img/github.png' %}"></a>
+                <a href="https://www.github.com" class="link contacts">Наш GitHub</a>
+            </div>
+            <div class="contacts-block">
+                <a href="https://www.youtube.com" class="link contacts"><img class="contacts-icon" src="{% static 'company/img/youtube.png' %}"></a>
+                <a href="https://www.youtube.com" class="link contacts">Наш YouTube</a>
+            </div>
+            <div class="contacts-block">
+                <a href="https://www.twitter.com" class="link contacts"><img class="contacts-icon" src="{% static 'company/img/twitter.png' %}"></a>
+                <a href="https://www.twitter.com" class="link contacts">Наш Twitter</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

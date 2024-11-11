@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Діяльність компанії{% endblock %}
+{% block content %}
+
+    <div class="content-block">
+        <h2 class="desc">Діяльність нашої улюбленої компанії</h2>
+        <div class="text-block">
+            <div class="activity-block">
+                <h3 class="person-info">Розробка на Android</h3>
+                <img src="{% static 'company/img/android.png' %}" class="person-icon">
+                <p class="main-text">Etiam semper tortor aliquam libero scelerisque, a pellentesque augue gravida. Etiam faucibus vitae diam accumsan tincidunt. Etiam iaculis tincidunt finibus. In sodales velit quis ligula imperdiet, in sagittis elit congue. Morbi porttitor egestas lectus. In ornare, purus sed luctus interdum, quam justo ultrices leo, quis iaculis arcu quam et lectus.</p>
+            </div>
+            <div class="activity-block">
+                <h3 class="person-info">Розробка на Python</h3>
+                <img src="{% static 'company/img/python.png' %}" class="person-icon">
+                <p class="main-text">Morbi tincidunt congue lorem at ultrices. Mauris tristique augue fermentum, mollis mi at, dapibus est. Nullam nec feugiat diam, at lacinia tortor. Nulla gravida tortor ex, in sodales nisl placerat sit amet.</p>
+            </div>
+            <div class="activity-block">
+                <h3 class="person-info">Розробка для Windows</h3>
+                <img src="{% static 'company/img/windows.png' %}" class="person-icon">
+                <p class="main-text">Nam sed arcu porta, iaculis nunc at, mollis est. Phasellus vel sem ac elit pharetra maximus. Praesent quis aliquet ante, consectetur vestibulum nibh. Duis consequat sem ligula, id rutrum ante sagittis id. Proin viverra lobortis justo ac consequat. Pellentesque volutpat dignissim tellus quis accumsan. Sed eget euismod arcu. In lobortis posuere turpis, in interdum nunc ultrices ac. Quisque facilisis turpis et blandit mollis.</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock %}</title>
+        <link href="{% static 'company/css/style.css' %}" rel="stylesheet">
+        <link rel="icon" href="{% static 'company/img/favicon.ico' %}" type="image/x-icon">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="link" href="/">Головна</a>
+            <a class="link" href="/news">Новини компанії</a>
+            <a class="link" href="/management">Правління компанії</a>
+            <a class="link" href="/activity">Діяльність компанії</a>
+            <a class="link" href="/contacts">Контакти</a>
+        </nav>
+        <main>
+            <div class="block-content">
+                <h1>DevDay</h1>
+                <div class="main-content">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer class="foo">
+        <div class="foo-links">
+            <a class="link" href="/">Головна</a>
+            <a class="link" href="/news">Новини компанії</a>
+            <a class="link" href="/management">Правління компанії</a>
+            <a class="link" href="/activity">Діяльність компанії</a>
+            <a class="link" href="/contacts">Контакти</a>
+        </div>
+        <p class="foo-text">2024</p>
+        <p class="foo-text">by Nazar Kovtun</p>
+    </footer>
+</html>

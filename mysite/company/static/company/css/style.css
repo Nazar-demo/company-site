@@ -1,0 +1,163 @@
+/* main page */
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #75cfff, #fff9dd);
+    height: 100%;
+}
+
+.block-content {
+    min-height: 71vh;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-block.left {
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.text-block.right {
+    flex-direction: row-reverse;
+}
+
+.text-block.Z {
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-block.A {
+    align-items: center;
+}
+
+.main-text {
+    text-align: justify;
+    font-family: Nimbus Mono PS;
+    font-size: 20px;
+    margin: 20px 30px;
+    color: #333;
+}
+
+.ask {
+    font-size: 40px;
+}
+
+.ask.A {
+    width: 100%;
+}
+
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 55px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #005bb5, #007400);
+    border-bottom: 3px solid #005bb5;
+}
+
+.link {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* contacts */
+
+.text-block.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 10px;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.link.contacts {
+    color: #333;
+}
+
+.contacts-icon {
+    max-width: 40px;
+}
+
+
+/* management */
+
+.person-info {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.link.person {
+    font-size: 25px;
+    color: #003366;
+    margin: 0;
+}
+
+.person-icon {
+    margin-left: 30px;
+}
+
+.text-block.person {
+    align-items: center;
+}
+
+
+/* footer */
+
+.foo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    background: linear-gradient(to right, #007400, #005bb5);
+    border-top: 3px solid #005bb5;
+
+}
+
+.foo-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.foo-text {
+    margin: 0px;
+    color: white;
+    font-family: Z003;
+    font-size: 15px;
+}
+
+/* other style */
+
+h1 {
+    font-size: 50px;
+}
+
+h1, h2, h3, a {
+    font-family: Z003;
+    margin: 10px 10px;
+    color: #003366;
+}
+
+img {
+    max-width: 120px;
+    max-height: 120px;
+}

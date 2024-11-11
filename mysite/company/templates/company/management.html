@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Правління компанії{% endblock %}
+{% block content %}
+
+    <div class="content-block">
+        <h2 class="desc">Минулі директори нашої компанії</h2>
+        <div class="text-block">
+            <div class="person">
+                <img src="{% static 'company/img/person.png' %}" class="person-icon">
+                <h3 class="person-info"><a href="gogol" class="link person">Микола Гоголь</a></h3>
+                <h3 class="person-info">2022-2024</h3>
+                <p class="main-text">Mauris viverra augue non gravida mollis. Sed ultrices arcu et auctor feugiat. Curabitur et tortor semper, gravida magna sit amet, congue arcu. Sed eu purus at quam bibendum imperdiet quis sit amet dui. Donec sodales posuere arcu non tristique. Aliquam neque ex, semper lobortis dui maximus, vulputate consectetur libero. Phasellus commodo nibh id viverra tincidunt.</p>
+            </div>
+            <hr>
+            <div class="person">
+                <img src="{% static 'company/img/person.png' %}" class="person-icon">
+                <h3 class="person-info"><a href="stus" class="link person">Василь Стус</a></h3>
+                <h3 class="person-info">2020-2022</h3>
+                <p class="main-text">Nam sed arcu porta, iaculis nunc at, mollis est. Phasellus vel sem ac elit pharetra maximus. Praesent quis aliquet ante, consectetur vestibulum nibh. Duis consequat sem ligula, id rutrum ante sagittis id.</p>
+            </div>
+            <hr>
+            <div class="person">
+                <img src="{% static 'company/img/person.png' %}" class="person-icon">
+                <h3 class="person-info"><a href="smith" class="link person">Джон Сміт</a></h3>
+                <h3 class="person-info">2004-2020</h3>
+                <p class="main-text">Proin viverra lobortis justo ac consequat. Pellentesque volutpat dignissim tellus quis accumsan. Sed eget euismod arcu. In lobortis posuere turpis, in interdum nunc ultrices ac. Quisque facilisis turpis et blandit mollis. Aliquam dignissim, diam ut cursus suscipit, nibh est rutrum diam, posuere iaculis ipsum lectus id dui. Nam vel lorem in elit bibendum interdum vel eu turpis. Mauris justo tellus, eleifend feugiat elementum a, pulvinar faucibus erat. Aliquam sollicitudin gravida feugiat. Suspendisse lobortis volutpat mi id fringilla.</p>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+{% endblock %}
